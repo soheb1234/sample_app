@@ -46,5 +46,10 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  
+  group :production do
+  gem 'puma',           '3.1.0'
+  
+end
 end
 
